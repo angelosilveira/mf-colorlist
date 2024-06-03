@@ -8,7 +8,7 @@ module.exports = (_, argv) => {
       publicPath:
         argv.mode === "development"
           ? "http://localhost:3002/"
-          : "https://ap-mf-colorpicker.netlify.app/",
+          : "https://ap-mf-colorlist.netlify.app/",
     },
 
     resolve: {
